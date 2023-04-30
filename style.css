@@ -1,0 +1,185 @@
+html,
+body,
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: 'Gabriela', serif;
+    font-family: 'Oxygen', sans-serif;
+}
+.home {
+    height: 100vh;
+    background: url(./img/Rectangle\ 4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0px;
+  margin-bottom: 100px;
+}
+.logo {
+  width: 100%;
+  max-width: 200px;
+}
+.header_list {
+  display: flex;
+  list-style-type: none;
+}
+.list_item {
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+color: #FFFFFF;
+opacity: 0.8;
+margin-right: 30px;
+}
+.list_item:hover {
+  cursor: pointer;
+  color: #000;
+  transition: 0.3s;
+}
+.link {
+  text-decoration: none;
+}
+.button {
+  background: #FFFFFF;
+border-radius: 30px;
+padding: 3px 55px;
+height: 43px;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+height: 43px;
+box-sizing: border-box;
+color: #000;
+opacity: 0.8;
+display: flex;
+justify-content: center;
+}
+.button:hover {
+  transition: 0.3s;
+  color: #FFFFFF;
+  background-color: #000;
+}
+
+/* HOME CONTENT */
+
+.home_content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.home_title {
+  max-width: 570px;
+  font-family: 'Gabriola';
+font-style: normal;
+font-weight: 400;
+font-size: 130px;
+line-height: 100%;
+color: #FFFDFD;
+}
+.home_subtitle {
+  max-width: 300px;
+  font-family: 'Gabriola';
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+color: #FFFFFF;
+opacity: 0.8;
+}
+.home_subtitle2 {
+  font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+color: #FFFFFF;
+opacity: 0.8;
+}
+.home_button {
+  background: #FFFDFD;
+border-radius: 30px;
+padding: 5px 50px 9px 50px;
+  font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+width: 200px;
+font-size: 30px;
+color: #000000;
+height: 48px;
+box-sizing: border-box;
+}
+.home_button:hover {
+  color: #FFFFFF;
+  background-color: #000000;
+  transition: 0.3s;                               
+}
+.line {
+  display: flex;
+  background-color: #FFFFFF;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 150px;   
+}
+.line_text {
+  font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+color: #000000;
+margin-right: 32px;
+}
+
+@media screen and (max-width: 1200px) {
+  .home {
+    height: 100vh;
+    background: url(./img/Rectangle\ 4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 30px;
+}
+
+}
+@media screen and (max-width: 1150px) {
+  .list_item {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-right: 30px;
+    }
+    .logo {
+      width: 100%;
+      max-width: 140px;
+    }
+    .button {
+      background: #FFFFFF;
+    border-radius: 30px;
+    padding: 5px 30px;
+    height: 43px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    height: 43px;
+    box-sizing: border-box;
+    color: #000;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    }
+}
